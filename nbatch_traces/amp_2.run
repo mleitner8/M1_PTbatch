@@ -1,0 +1,45 @@
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Importing simConfig from nbatch_traces/amp_2_cfg.json
+Loading file nbatch_traces/amp_2_cfg.json ... 
+Loading simConfig...
+Importing netParams from nbatch_traces/amp_netParams.py
+
+Start time:  2023-09-14 14:26:06.832629
+
+Start time:  2023-09-14 14:26:06.839288
+
+Creating network of 1 cell populations on 1 hosts...
+ERROR: Some mechanisms and/or ions were not inserted (for details run with cfg.verbose=True). Make sure the required mod files are compiled.
+  Number of cells on node 0: 1 
+  Done; cell creation time = 0.03 s.
+Making connections...
+  Number of connections on node 0: 0 
+  Done; cell connection time = 0.00 s.
+Adding stims...
+  Number of stims on node 0: 1 
+  Done; cell stims creation time = 0.00 s.
+Recording 1 traces of 1 types on node 0
+
+Running simulation using NEURON for 2000.0 ms...
+  Done; run time = 1.15 s; real-time ratio: 1.74.
+
+Gathering data...
+  Done; gather time = 0.02 s.
+
+Analyzing...
+  Cells: 1
+  Connections: 0 (0.00 per cell)
+  Spikes: 1 (0.50 Hz)
+  Simulated time: 2.0 s; 1 workers
+  Run time: 1.15 s
+   hh : 0.500 Hz
+Saving output as nbatch_traces/amp_2_data.json ... 
+Finished saving!
+  Done; saving time = 0.13 s.
+Preparing spike data...
+Plotting raster...
+Plotting recorded cell traces ... cell
+  Done; plotting time = 0.36 s
+
+Total time = 1.69 s
