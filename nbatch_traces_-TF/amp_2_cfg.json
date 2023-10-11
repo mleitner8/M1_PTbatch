@@ -1,0 +1,98 @@
+{
+    "simConfig": {
+        "addSynMechs": true,
+        "allowConnsWithWeight0": true,
+        "allowSelfConns": false,
+        "amp": 0.5,
+        "analysis": {
+            "plotRaster": {
+                "saveFig": true
+            },
+            "plotTraces": {
+                "include": [
+                    0
+                ],
+                "saveFig": true
+            }
+        },
+        "backupCfgFile": [],
+        "cache_efficient": false,
+        "checkErrors": false,
+        "compactConnFormat": false,
+        "connRandomSecFromList": true,
+        "coreneuron": false,
+        "createNEURONObj": true,
+        "createPyStruct": true,
+        "cvode_active": false,
+        "cvode_atol": 0.001,
+        "distributeSynsUniformly": true,
+        "dt": 0.025,
+        "dump_coreneuron_model": false,
+        "duration": 2000,
+        "filename": "PT_cfg",
+        "gatherOnlySimData": false,
+        "gpu": false,
+        "hParams": {
+            "celsius": 34,
+            "v_init": -70
+        },
+        "includeParamsLabel": true,
+        "invertedYCoord": true,
+        "oneSynPerNetcon": true,
+        "printPopAvgRates": true,
+        "printRunTime": false,
+        "printSynsAfterRule": false,
+        "pt3dRelativeToCellLocation": true,
+        "rand123GlobalIndex": null,
+        "random123": false,
+        "recordCells": [],
+        "recordCellsSpikes": -1,
+        "recordDipole": false,
+        "recordDipolesHNN": false,
+        "recordLFP": [],
+        "recordStep": 0.1,
+        "recordStim": false,
+        "recordTime": true,
+        "recordTraces": {
+            "v": {
+                "loc": 0.5,
+                "sec": "soma_0",
+                "var": "v"
+            }
+        },
+        "saveCSV": false,
+        "saveCellConns": true,
+        "saveCellSecs": true,
+        "saveDat": false,
+        "saveDataInclude": [
+            "simData",
+            "simConfig",
+            "netParams",
+            "net"
+        ],
+        "saveDipoleCells": false,
+        "saveDipolePops": false,
+        "saveDpk": false,
+        "saveFolder": "nbatch_traces_-TF",
+        "saveHDF5": false,
+        "saveJson": true,
+        "saveLFPCells": false,
+        "saveLFPPops": false,
+        "saveMat": false,
+        "savePickle": false,
+        "saveTiming": false,
+        "seeds": {
+            "cell": 1,
+            "conn": 1,
+            "loc": 1,
+            "stim": 1
+        },
+        "simLabel": "amp_2",
+        "timestampFilename": false,
+        "timing": true,
+        "tstop": 1000.0,
+        "use_fast_imem": false,
+        "validateNetParams": false,
+        "verbose": false
+    }
+}

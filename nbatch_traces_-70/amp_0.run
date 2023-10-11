@@ -1,0 +1,44 @@
+
+Reading command line arguments using syntax: python file.py [simConfig=filepath] [netParams=filepath]
+Importing simConfig from nbatch_traces_-70/amp_0_cfg.json
+Loading file nbatch_traces_-70/amp_0_cfg.json ... 
+Loading simConfig...
+Importing netParams from nbatch_traces_-70/amp_netParams.py
+
+Start time:  2023-09-27 12:06:49.469999
+
+Start time:  2023-09-27 12:06:49.475732
+
+Creating network of 1 cell populations on 1 hosts...
+  Number of cells on node 0: 1 
+  Done; cell creation time = 0.02 s.
+Making connections...
+  Number of connections on node 0: 0 
+  Done; cell connection time = 0.00 s.
+Adding stims...
+  Number of stims on node 0: 1 
+  Done; cell stims creation time = 0.00 s.
+Recording 1 traces of 1 types on node 0
+
+Running simulation using NEURON for 2000.0 ms...
+  Done; run time = 6.36 s; real-time ratio: 0.31.
+
+Gathering data...
+  Done; gather time = 0.02 s.
+
+Analyzing...
+  Cells: 1
+  Connections: 0 (0.00 per cell)
+  Spikes: 20 (10.00 Hz)
+  Simulated time: 2.0 s; 1 workers
+  Run time: 6.36 s
+   hh : 10.000 Hz
+Saving output as nbatch_traces_-70/amp_0_data.json ... 
+Finished saving!
+  Done; saving time = 0.12 s.
+Preparing spike data...
+Plotting raster...
+Plotting recorded cell traces ... cell
+  Done; plotting time = 0.37 s
+
+Total time = 6.88 s

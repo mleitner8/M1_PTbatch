@@ -4,5 +4,7 @@ NEURON -- VERSION 8.2.2+ release/8.2 (93d41fafd+) 2022-12-15
 Duke, Yale, and the BlueBrain Project -- Copyright 1984-2022
 See http://neuron.yale.edu/neuron/credits
 
+Additional mechanisms from files
+ "CaDynamics_E2.mod" "Ca_HVA.mod" "Ca_LVAst.mod" "Ih.mod" "Im.mod" "K_Pst.mod" "K_Tst.mod" "ProbAMPANMDA_EMS.mod" "ProbGABAAB_EMS.mod" "SK_E2.mod" "SKv3_1.mod" "branching.mod" "na12.mod" "na12_mut.mod" "na16.mod" "na16_mut.mod" "vclmp_pl.mod"
 0 /Users/mollyleitner/miniconda3/dev/bin/nrniv: can't open simConfig=nbatch_traces/amp_1_cfg.json
 Could not open netParams=nbatch_traces/amp_netParams.py

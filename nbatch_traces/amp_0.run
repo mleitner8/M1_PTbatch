@@ -5,14 +5,13 @@ Loading file nbatch_traces/amp_0_cfg.json ...
 Loading simConfig...
 Importing netParams from nbatch_traces/amp_netParams.py
 
-Start time:  2023-09-14 14:26:00.166370
+Start time:  2023-09-15 15:20:04.149756
 
-Start time:  2023-09-14 14:26:00.173210
+Start time:  2023-09-15 15:20:04.156477
 
 Creating network of 1 cell populations on 1 hosts...
-ERROR: Some mechanisms and/or ions were not inserted (for details run with cfg.verbose=True). Make sure the required mod files are compiled.
   Number of cells on node 0: 1 
-  Done; cell creation time = 0.03 s.
+  Done; cell creation time = 0.02 s.
 Making connections...
   Number of connections on node 0: 0 
   Done; cell connection time = 0.00 s.
@@ -22,28 +21,24 @@ Adding stims...
 Recording 1 traces of 1 types on node 0
 
 Running simulation using NEURON for 2000.0 ms...
-  Done; run time = 1.15 s; real-time ratio: 1.73.
+  Done; run time = 7.73 s; real-time ratio: 0.26.
 
 Gathering data...
-  Done; gather time = 0.02 s.
+  Done; gather time = 0.03 s.
 
 Analyzing...
   Cells: 1
   Connections: 0 (0.00 per cell)
-  Spikes: 0 (0.00 Hz)
+  Spikes: 20 (10.00 Hz)
   Simulated time: 2.0 s; 1 workers
-  Run time: 1.15 s
-   hh : 0.000 Hz
+  Run time: 7.73 s
+   hh : 10.000 Hz
 Saving output as nbatch_traces/amp_0_data.json ... 
 Finished saving!
   Done; saving time = 0.13 s.
 Preparing spike data...
-No spikes available to plot raster
 Plotting raster...
-  There was an exception in plotRaster(): 
-    cannot access local variable 'spkInds' where it is not associated with a value 
-    (<class 'UnboundLocalError'>, UnboundLocalError("cannot access local variable 'spkInds' where it is not associated with a value"), <traceback object at 0x128afdb00>)
 Plotting recorded cell traces ... cell
-  Done; plotting time = 0.29 s
+  Done; plotting time = 0.37 s
 
-Total time = 1.63 s
+Total time = 8.28 s

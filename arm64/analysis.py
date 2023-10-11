@@ -9,4 +9,4 @@ import utils
 import json
 import matplotlib.pyplot as plt
 
-def plot_FI():
+def plot_FI(dataFolder, batchLabel, params, data):

@@ -13,7 +13,7 @@ def runBatch():
 
         #Set output folder, grid method and run configuration
         b.batchLabel = 'amp'
-        b.saveFolder = 'nbatch_traces'
+        b.saveFolder = 'nbatch_traces_-TF'
         b.method = 'grid'
         b.runCfg = {'type': 'mpi_bulletin', 'script': 'init.py', 'skip': True}
 
